@@ -1,4 +1,8 @@
 {
+  "company": {
+    "name": "React landing page 2021",
+    "logo": "/assets/images/logo.png"
+  },
   "navigation": [
     {
       "name": "About Us",
@@ -26,8 +30,8 @@
   
   "mainHero": {
     "title": "About Us",
-    "description": "We are a team of highly experienced IT professionals who help IT students and IT freshers in meeting their career objectives. We transform their lives by helping them in getting IT jobs as per current IT job market requirement. We empower minds by deciphering coding skills. We have already helped hundred of students to get jobs in IT sector.",
-    "img": "/assets/images/coding2.jpeg"
+    "description": "We are a team of highly experienced IT professionals who help IT students and IT freshers in meeting their career objectives. We transform their lives by helping them in getting IT jobs as per current IT job market requirement. We empower minds by deciphering coding skills. Our belief is that the world of coding can be conquered with the right guidance. We have already helped hundred of students to get jobs in IT sector.",
+    "img": "/assets/images/logo3.png"
   },
   "product": {
     "title": "What We Do",
