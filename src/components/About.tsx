@@ -14,7 +14,10 @@ const About = () => {
     >
       <div className="flex flex-col items-center justify-center">
         <div>
-          <img src={logo} alt={companyName} className="w-16 h-16" />
+          <a href="#">
+            <span className="sr-only">{companyName}</span>
+            <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
+          </a>
         </div>
 
         <div className="flex items-center gap-x-8 mt-6 h-8">
