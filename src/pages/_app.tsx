@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="description"
           content="Learn spring boot, java based online courses from professionals in live classess."
         />
-        <meta name="url" content="https://www.liveitcourses.com/" />
+        <meta name="url" content="https://www.codingconquerors.com/" />
         <meta name="type" content="website" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
