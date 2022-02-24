@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
@@ -10,6 +10,18 @@ const Menu = () => {
   const { navigation, company } = config;
   const { name: companyName, logo } = company;
   const { contactUs } = config;
+  const [animateHeader, setAnimateHeader] = useState(false);
+  useEffect(() => {
+    const listener = () => {
+      if (window.scrollY > 140) {
+        setAnimateHeader(true);
+      } else setAnimateHeader(false);
+    };
+    window.addEventListener('scroll', listener);
+    return () => {
+      window.removeEventListener('scroll', listener);
+    };
+  }, []);
   return (
     <>
       <svg
@@ -25,7 +37,7 @@ const Menu = () => {
       <Popover>
         <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
           <nav
-            className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+            className={`flex items-center justify-between sm:h-10 lg:justify-start fixed ${animateHeader}`}
             aria-label="Global"
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
@@ -44,7 +56,7 @@ const Menu = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 shadow-xl">
               {navigation.map((item) => (
                 <Link
                   spy={true}
@@ -91,7 +103,7 @@ const Menu = () => {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="px-2 pt-2 pb-3 space-y-1">
+              <div className="px-2 pt-2 pb-3 space-y-1 shadow-xl">
                 {navigation.map((item) => (
                   <Link
                     spy={true}
