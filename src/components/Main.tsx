@@ -1,16 +1,17 @@
 import React from 'react';
 
 import config from '../config/index.json';
+import Divider from './Divider';
 
-const MainHero = () => {
-  const { mainHero } = config;
+const Main = () => {
+  const { main } = config;
   return (
-    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-      <div className="sm:text-center lg:text-left">
+    <section className={`bg-background py-8 `} id="main">
+      <div className="container max-w-xl mx-auto m-8">
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
-          {mainHero.title.split(' ').map((word, index) => (
+          {main.title.split(' ').map((word, index) => (
             <span
               key={index}
               className={index % 2 ? 'text-primary' : 'text-border'}
@@ -19,12 +20,13 @@ const MainHero = () => {
             </span>
           ))}
         </h1>
+        <Divider />
         <p className={`text-gray-600`} id="root">
-          {mainHero.description}
+          {main.description}
         </p>
       </div>
-    </main>
+    </section>
   );
 };
 
-export default MainHero;
+export default Main;
