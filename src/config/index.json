@@ -53,7 +53,7 @@
     "items": [
       {
         "name": "A comprehensive all in one BackEnd Course",
-        "description": "This course is based on Spring Boot and Java. We cover each of the below topic in live classes. Every problem students face is resolved on the spot. \n 1. Understanding basics of Microservices, MVC Design pattern, and Restful Webservices\n2. Implementing HTTP methods, exception handling in Spring Boot\n3. Interaction with database (CRUD operations. using JPA and H2 Database\n4. HATEOAS, Internationalization, Content Negotiation, Dynamic and static filtering for Restful Services\n5. Implementing Swagger documentation and Monitoring APIs with Spring Boot Actuator, HAL explorer, Restful services versioning\n6. Authentication using Spring Security and JWT\n7. Introduction to Apache camel and implementing Spring boot Webservices using apache camel routes\n8. Implementing various important Microservices concepts such as Zuul, Eureka, Ribbon and Feign, Zipkin and Hystrix\n9. Introduction to Docker and Kubernetes and use them with Spring boot Microservices\n10. Adding test cases into Microservices using Mocks (unit, functional, and integration.\n11. Introduction to Gradle and creating build.gradle file and run different tasks such as clean, build, jocoko test report, etc.\n12. Understanding CI/CD and integrating a project with the jenkins build tool\n13. How to debug a microservice project and how to do dynamic and static Code reviews\n14. Call one microservice to another microservice using synchronous and asynchronous methods\n15. Microservices Design patterns",
+        "description": "This course is based on Spring Boot and Java. Duration of the course is from 1 to 1.5 months. We cover each of the below topic in live classes. Every problem students face is resolved on the spot. \n 1. Understanding basics of Microservices, MVC Design pattern, and Restful Webservices\n2. Implementing HTTP methods, exception handling in Spring Boot\n3. Interaction with database (CRUD operations. using JPA and H2 Database\n4. HATEOAS, Internationalization, Content Negotiation, Dynamic and static filtering for Restful Services\n5. Implementing Swagger documentation and Monitoring APIs with Spring Boot Actuator, HAL explorer, Restful services versioning\n6. Authentication using Spring Security and JWT\n7. Introduction to Apache camel and implementing Spring boot Webservices using apache camel routes\n8. Implementing various important Microservices concepts such as Zuul, Eureka, Ribbon and Feign, Zipkin and Hystrix\n9. Introduction to Docker and Kubernetes and use them with Spring boot Microservices\n10. Adding test cases into Microservices using Mocks (unit, functional, and integration.\n11. Introduction to Gradle and creating build.gradle file and run different tasks such as clean, build, jocoko test report, etc.\n12. Understanding CI/CD and integrating a project with the jenkins build tool\n13. How to debug a microservice project and how to do dynamic and static Code reviews\n14. Call one microservice to another microservice using synchronous and asynchronous methods\n15. Microservices Design patterns",
         "icon": "/assets/images/spring-boot.png"
       },
       {
@@ -113,8 +113,8 @@
     ],
     "socialMedia": {
       "github": "https://github.com/codingconquerors",
-      "twitter": "https://twitter.com/codingconquerors",
-      "linkedin": "https://www.linkedin.com/in/codingconquerors/"
+      "twitter": "https://twitter.com/CodingConquero1",
+      "linkedin": "https://www.linkedin.com/in/coding-conquerors"
     }
   }
 }

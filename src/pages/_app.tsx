@@ -9,16 +9,15 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Fragment>
       <Head>
         <title>Online IT course with live classes</title>
+        <meta name="title" content="Online IT courses with live classes" />
         <meta
-          property="og:title"
-          content="Online IT courses with live classes"
+          name="description"
+          content="Learn spring boot, java based online courses from professionals in live classess."
         />
-        <meta
-          property="og:description"
-          content="Learn latest cutting edge tecnologies from professionals in live classess!"
-        />
-        <meta property="og:url" content="https://www.liveitcourses.com/" />
-        <meta property="og:type" content="website" />
+        <meta name="url" content="https://www.liveitcourses.com/" />
+        <meta name="type" content="website" />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
