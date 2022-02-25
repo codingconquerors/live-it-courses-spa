@@ -29,7 +29,7 @@
   },
   "main": {
     "title": "About Us",
-    "description": "We are a team of highly experienced IT professionals who help IT students and IT freshers in meeting their career objectives. We transform their lives by helping them in getting IT jobs as per current IT job market requirement. We empower minds by deciphering coding skills. Our belief is that the world of coding can be conquered with the right guidance. We have already helped hundred of students to get jobs in IT sector.",
+    "description": "We are a team of highly experienced IT professionals who help IT students and IT freshers in meeting their career objectives by conducting online live classes. We transform their lives by helping them in getting IT jobs as per current IT job market requirement. We empower minds by deciphering coding skills. Our belief is that the world of coding can be conquered with right guidance. We have already helped hundred of students to get jobs in IT sector. We teach online courses through live classes based on topics java, spring boot, apache camel, kafka, microservices, docker, kubernetes and other open source technologies using video conferencing.",
     "img": "/assets/images/main.png"
   },
   "product": {
@@ -42,18 +42,18 @@
       },
       {
         "title": "How We Do",
-        "description": "We believe in the notion that no student is a bad student, it is just the gap in level of understanding a student and a teacher has which makes things complicated. We offer online courses purely based on live classes. During these live classe We reach to the level of understanding a student has and the evolution process starts from there. This is exactly opposite of learning through recorded lectures which first takes a lot longer to complete and second if student stucks at some problem it takes forever to resolve.",
+        "description": "We believe in the notion that no student is a bad student, it is just the gap in level of understanding a student and a teacher has which makes things complicated. We offer online courses purely based on live classes. During these live classe we understand and reach to student's level of understanding and the evolution process starts from there. This is exactly opposite of learning through recorded lectures which firstly, takes a lot longer to complete then what was committed and secondly, if a student stucks at some problem it takes forever to resolve.",
         "img": "/assets/images/product2.jpg"
       }
     ]
   },
   "features": {
     "subtitle": "Online IT courses based on live classes",
-    "description": "We provide two comprehensive all in one live courses. One of the courses is BackEnd Course based on technologies such as Java, Springboot, Kubernetes, Docker, Apache Camel and Kafka, Database interaction etc. This course is already launched. The other one is complete frontend course which we are planning to launch soon.",
+    "description": "As of now we provide two comprehensive 'all in one' live courses. One of the live courses is 'BackEnd Course' based on technologies such as Java, Springboot, Kubernetes, Docker, Apache Camel and Kafka, Database interaction etc. This course is already launched. The other one is 'frontend course' which we are planning to launch soon.",
     "items": [
       {
         "name": "A comprehensive all in one BackEnd Course",
-        "description": "This course is based on Spring Boot and Java. Duration of the course is from 1 to 1.5 months. We cover each of the below topic in live classes. Every problem students face is resolved on the spot. \n 1. Understanding basics of Microservices, MVC Design pattern, and Restful Webservices\n2. Implementing HTTP methods, exception handling in Spring Boot\n3. Interaction with database (CRUD operations. using JPA and H2 Database\n4. HATEOAS, Internationalization, Content Negotiation, Dynamic and static filtering for Restful Services\n5. Implementing Swagger documentation and Monitoring APIs with Spring Boot Actuator, HAL explorer, Restful services versioning\n6. Authentication using Spring Security and JWT\n7. Introduction to Apache camel and implementing Spring boot Webservices using apache camel routes\n8. Implementing various important Microservices concepts such as Zuul, Eureka, Ribbon and Feign, Zipkin and Hystrix\n9. Introduction to Docker and Kubernetes and use them with Spring boot Microservices\n10. Adding test cases into Microservices using Mocks (unit, functional, and integration.\n11. Introduction to Gradle and creating build.gradle file and run different tasks such as clean, build, jocoko test report, etc.\n12. Understanding CI/CD and integrating a project with the jenkins build tool\n13. How to debug a microservice project and how to do dynamic and static Code reviews\n14. Call one microservice to another microservice using synchronous and asynchronous methods\n15. Microservices Design patterns",
+        "description": "This course is based on Spring Boot and Java. Duration of the course is from 1 to 1.5 months. We cover each of the below topics in live classes. Every problem students face is resolved on the spot. \n 1. Understanding basics of Microservices, MVC Design pattern, and Restful Webservices\n2. Implementing HTTP methods, exception handling in Spring Boot\n3. Interaction with database (CRUD operations. using JPA and H2 Database\n4. HATEOAS, Internationalization, Content Negotiation, Dynamic and static filtering for Restful Services\n5. Implementing Swagger documentation and Monitoring APIs with Spring Boot Actuator, HAL explorer, Restful services versioning\n6. Authentication using Spring Security and JWT\n7. Introduction to Apache camel and implementing Spring boot Webservices using apache camel routes\n8. Implementing various important Microservices concepts such as Zuul, Eureka, Ribbon and Feign, Zipkin and Hystrix\n9. Introduction to Docker and Kubernetes and use them with Spring boot Microservices\n10. Adding test cases into Microservices using Mocks (unit, functional, and integration.\n11. Introduction to Gradle and creating build.gradle file and run different tasks such as clean, build, jocoko test report, etc.\n12. Understanding CI/CD and integrating a project with the jenkins build tool\n13. How to debug a microservice project and how to do dynamic and static Code reviews\n14. Call one microservice to another microservice using synchronous and asynchronous methods\n15. Microservices Design patterns",
         "icon": "/assets/images/spring-boot.png"
       },
       {
@@ -68,15 +68,15 @@
     "items": [
       {
         "name": "All in one BackEnd Course with Live Classes",
-        "price": "USD750",
+        "price": "USD 750",
         "priceDetails": "",
         "features": [
           "Course is designed in such a way that it starts from scratch and cover every aspect upto production deployment",
-          "All the course topic are covered in live classes which help in resolving students issues spontaneously",
-          "With every course topic, corresponding interview questions are also covered which help students prepare for interview along with course topics",
+          "All the course topics are covered in live classes which help in resolving students issues spontaneously",
+          "With every course topic, corresponding interview questions are also covered which helps students prepare for interview along with course topics",
           "No question asked money back guarantee after one week of classes if a student is not satisfied",
-          "Basic java knowledge is prerequisite and Special discount for needy students",
-          "Course batch is started every month"
+          "Basic java knowledge of java is prerequisite and Special discount for needy students",
+          "New course batch starts monthly"
         ]
       },
       {
