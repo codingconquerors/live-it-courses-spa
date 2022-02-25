@@ -9,7 +9,7 @@
       "href": "main"
     },
     {
-      "name": "What We Do",
+      "name": "Why Us",
       "href": "product"
     },
     {
@@ -33,7 +33,7 @@
     "img": "/assets/images/main.png"
   },
   "product": {
-    "title": "What We Do",
+    "title": "Why US",
     "items": [
       {
         "title": "We are the answer to the following questions:",
@@ -41,7 +41,7 @@
         "img": "/assets/images/product1.jpg"
       },
       {
-        "title": "How We Do",
+        "title": "Our Teaching Ideology",
         "description": "We believe in the notion that no student is a bad student, it is just the gap in level of understanding a student and a teacher has which makes things complicated. We offer online courses purely based on live classes. During these live classe we understand and reach to student's level of understanding and the evolution process starts from there. This is exactly opposite of learning through recorded lectures which firstly, takes a lot longer to complete then what was committed and secondly, if a student stucks at some problem it takes forever to resolve.",
         "img": "/assets/images/product2.jpg"
       }
