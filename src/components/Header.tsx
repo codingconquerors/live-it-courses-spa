@@ -1,8 +1,7 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { Fragment, useState, useEffect, MouseEvent } from 'react';
 
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
 
@@ -22,6 +21,29 @@ const Menu = () => {
       window.removeEventListener('scroll', listener);
     };
   }, []);
+  const handleClick = (e: MouseEvent<HTMLAnchorElement>): void => {
+    /* console.log(
+      `Clicked at ${e.currentTarget.href
+        .substring(0, e.currentTarget.href.lastIndexOf('/') + 1)
+        .concat('#')
+        .concat(
+          e.currentTarget.href.substring(
+            e.currentTarget.href.lastIndexOf('/') + 1,
+            e.currentTarget.href.length
+          )
+        )}`
+    ); */
+    window.location.href = e.currentTarget.href
+      .substring(0, e.currentTarget.href.lastIndexOf('/') + 1)
+      .concat('#')
+      .concat(
+        e.currentTarget.href.substring(
+          e.currentTarget.href.lastIndexOf('/') + 1,
+          e.currentTarget.href.length
+        )
+      );
+    e.preventDefault();
+  };
   return (
     <>
       <svg
@@ -57,16 +79,16 @@ const Menu = () => {
               </div>
             </div>
             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 shadow-xl">
-              {navigation.map((item) => (
-                <Link
-                  spy={true}
-                  smooth={true}
-                  key={item.name}
-                  to={item.href}
+              {navigation.map((item, index) => (
+                <a
+                  href={`${item.href}`}
+                  key={index}
                   className="font-medium text-gray-500 hover:text-gray-900"
+                  id="navigation"
+                  onClick={handleClick}
                 >
                   {item.name}
-                </Link>
+                </a>
               ))}
               <a href={contactUs.href} id="contactUs">
                 {contactUs.title}
@@ -102,17 +124,15 @@ const Menu = () => {
                 </div>
               </div>
               <div className="px-2 pt-2 pb-3 space-y-1 shadow-xl">
-                {navigation.map((item) => (
-                  <Link
-                    spy={true}
-                    active="active"
-                    smooth={true}
-                    key={item.name}
-                    to={item.href}
+                {navigation.map((item, index) => (
+                  <a
+                    href={`#${item.href}`}
+                    key={index}
+                    id="navigation"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>
