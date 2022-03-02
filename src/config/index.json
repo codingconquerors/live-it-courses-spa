@@ -29,32 +29,32 @@
   },
   "main": {
     "title": "About Us",
-    "description": "We are a team of highly experienced IT professionals who help IT students and IT freshers in meeting their career objectives by conducting online live classes. We transform their lives by helping them in getting IT jobs as per current IT job market requirement. We empower minds by deciphering coding skills. Our belief is that the world of coding can be conquered with right guidance. We have already helped hundred of students to get jobs in IT sector. We teach online courses through live classes based on topics java, spring boot, apache camel, kafka, microservices, docker, kubernetes and other open source technologies using video conferencing.",
+    "description": "We are a team of highly experienced IT professionals who can help you achieve your career objectives by conducting live online classes. We transform your life by helping you get an IT job as per current market requirements. We empower minds by deciphering coding skills. We believe that the world of coding can be conquered with the right guidance. We have already helped hundreds of students to get jobs in the IT sector. We teach online courses through live classes on topics: Java, Spring Boot, Apache Camel, Kafka, Microservices, Docker, Kubernetes, and other open source technologies using video conferencing.",
     "img": "/assets/images/main.png"
   },
   "product": {
     "title": "Why US",
     "items": [
       {
-        "title": "We are the answer to the following questions:",
-        "description": "1. Are you a computer science or an IT student who is afraid of coding? We can help you in conquering this fear within a month.\n 2. Are you a computer science or an IT student who is worried about securing a job in IT? If yes, then we can guide you in securing an IT job. \n 3. Are you an unemployed IT graduate who is lost in today's technology stack and not sure from where to start. If yes, then we can help you in choosing the appropriate tech stack and securing a job. \n 4. Are you a former IT professional who is newly immigrated to North America but is not able to get a job? If yes, then you are in right place, we can help you in securing a job.\n 5. Are you a former IT graduate who had to leave the IT field because of some personal reason and looking back to get an entry into the IT field? If yes, then you are in the right place.",
+        "title": "We have the answers to all your questions:",
+        "description": "- Are you a computer science or an IT student who is afraid of coding? \n We can help you in conquering this fear within a month. \n - Are you a computer science or an IT student who is worried about securing a job in IT?\n If yes, then we can guide you in securing an IT job.  \n - Are you an unemployed IT graduate who is lost in today's technology stack and not sure where to start. \n If yes, we can help you in choosing the appropriate technology stack, and securing a job.  \n - Are you a former IT professional who is newly immigrated to North America but is not able to get a job? \n If yes, then you are in right place, we can help you in securing a job.\n - Are you a former IT graduate who had to leave the IT field because of some personal reason, and looking back to get an entry into the IT field? \n If yes, then you are in the right place.",
         "img": "/assets/images/product1.jpg"
       },
       {
         "title": "Our Teaching Ideology",
-        "description": "We believe in the notion that no student is a bad student, it is just the gap in level of understanding a student and a teacher has which makes things complicated. We offer online courses purely based on live classes. During these live classe we understand and reach to student's level of understanding and the evolution process starts from there. This is exactly opposite of learning through recorded lectures which firstly, takes a lot longer to complete then what was committed and secondly, if a student stucks at some problem it takes forever to resolve.",
+        "description": "We offer online courses purely based on live classes. During these live classes, we understand the existing level of students' knowledge and experience, and the transformation starts from there. This is exactly the opposite of learning through recorded lectures which normally take a lot longer to complete and do not clear your doubts. We clear your doubts instantly and help you achieve your goals rapidly. We believe that no student is weak, it is just the gap in the level of understanding between a student and a teacher which makes things complicated. Our live classes fill all the gaps.",
         "img": "/assets/images/product2.jpg"
       }
     ]
   },
   "features": {
     "subtitle": "Online IT courses based on live classes",
-    "description": "As of now we provide two comprehensive 'all in one' live courses. One of the live courses is 'BackEnd Course' based on technologies such as Java, Springboot, Kubernetes, Docker, Apache Camel and Kafka, Database interaction etc. This course is already launched. The other one is 'frontend course' which we are planning to launch soon.",
+    "description": "As of now, we provide two comprehensive 'all in one' live courses. One of the live courses is 'BackEnd Course' based on technologies such as Java, Springboot, Kubernetes, Docker, Apache Camel and Kafka, Database interaction, etc. This course is already launched. The other one is the 'FrontEnd Course' which we plan to launch soon.",
     "items": [
       {
         "name": "A comprehensive all in one BackEnd Course",
         "description": "This course is based on Spring Boot and Java. Duration of the course is from 1 to 1.5 months. We cover each of the below topics in live classes. Every problem students face is resolved on the spot. \n 1. Understanding basics of Microservices, MVC Design pattern, and Restful Webservices\n2. Implementing HTTP methods, exception handling in Spring Boot\n3. Interaction with database (CRUD operations. using JPA and H2 Database\n4. HATEOAS, Internationalization, Content Negotiation, Dynamic and static filtering for Restful Services\n5. Implementing Swagger documentation and Monitoring APIs with Spring Boot Actuator, HAL explorer, Restful services versioning\n6. Authentication using Spring Security and JWT\n7. Introduction to Apache camel and implementing Spring boot Webservices using apache camel routes\n8. Implementing various important Microservices concepts such as Zuul, Eureka, Ribbon and Feign, Zipkin and Hystrix\n9. Introduction to Docker and Kubernetes and use them with Spring boot Microservices\n10. Adding test cases into Microservices using Mocks (unit, functional, and integration.\n11. Introduction to Gradle and creating build.gradle file and run different tasks such as clean, build, jocoko test report, etc.\n12. Understanding CI/CD and integrating a project with the jenkins build tool\n13. How to debug a microservice project and how to do dynamic and static Code reviews\n14. Call one microservice to another microservice using synchronous and asynchronous methods\n15. Microservices Design patterns",
-        "icon": "/assets/images/spring-boot.png"
+        "icon": "/assets/images/tailwindcss.svg"
       },
       {
         "name": "FrontEnd Course",
