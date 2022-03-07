@@ -38,7 +38,7 @@ const Product = () => {
             <img
               className="h-6/6"
               src={firstItem?.img}
-              alt={firstItem?.title}
+              alt="Online IT courses with live classes"
             />
           </div>
         </div>
@@ -47,7 +47,7 @@ const Product = () => {
             <img
               className="h-6/6"
               src={secondItem?.img}
-              alt={secondItem?.title}
+              alt="Online IT courses with live classes"
             />
           </div>
           <div className={`w-full sm:w-1/2 p-6 mt-20`}>
