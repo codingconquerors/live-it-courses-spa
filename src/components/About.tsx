@@ -16,7 +16,11 @@ const About = () => {
         <div>
           <a href="#">
             <span className="sr-only">{companyName}</span>
-            <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
+            <img
+              alt="Online IT courses with live classes"
+              className="h-16 w-auto sm:h-16"
+              src={logo}
+            />
           </a>
         </div>
 
