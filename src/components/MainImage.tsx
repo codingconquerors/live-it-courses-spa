@@ -9,7 +9,7 @@ const MainHeroImage = () => {
       <img
         className="h-56 w-full object-cover sm:h-99 md:h-96 lg:w-full lg:h-full"
         src={main.img}
-        alt="Let us conquer coding"
+        alt="Online IT courses with live classes"
       />
     </div>
   );
