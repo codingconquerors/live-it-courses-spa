@@ -1,15 +1,10 @@
 import React from 'react';
 
 import About from '../components/About';
-import Analytics from '../components/Analytics';
-import Canvas from '../components/Canvas';
-import Features from '../components/Features';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import Main from '../components/Main';
 import MainImage from '../components/MainImage';
-import Pricing from '../components/Pricing';
-import Product from '../components/Product';
 
 const App = () => {
   return (
@@ -25,14 +20,11 @@ const App = () => {
         </div>
         <MainImage />
       </div>
-      <Canvas />
       <LazyShow>
         <>
-          <Canvas />
           <About />
         </>
       </LazyShow>
-      <Analytics />
     </div>
   );
 };
