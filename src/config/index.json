@@ -7,19 +7,6 @@
     {
       "name": "About Us",
       "href": "main"
-    },
-    {
-      "name": "Why Us",
-      "href": "product"
-    },
-    {
-      "name": "Courses",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
     }
   ],
 
@@ -29,7 +16,7 @@
   },
   "main": {
     "title": "About Us",
-    "description": "We are a team of highly experienced IT professionals who can help you achieve your career objectives by conducting live online classes. We transform your life by helping you get an IT job as per current market requirements. We empower minds by deciphering coding skills. We believe that the world of coding can be conquered with the right guidance. We have already helped hundreds of students to get jobs in the IT sector. We teach online courses through live classes on topics: Java, Spring Boot, Apache Camel, Kafka, Microservices, Docker, Kubernetes, and other open source technologies using video conferencing.",
+    "description": "We are a team of highly experienced IT professionals who provide all kind of IT solutions based on different technologies on reasonable prices. Click on contact us to know more about us and get the services.",
     "img": "/assets/images/main.png"
   },
   "product": {
@@ -75,7 +62,7 @@
           "All the course topics are covered in live classes which help in resolving students issues spontaneously",
           "With every course topic, corresponding interview questions are also covered which helps students prepare for interview along with course topics",
           "No question asked money back guarantee after one week of classes if a student is not satisfied",
-          "Basic java knowledge of java is prerequisite and Special discount for needy students",
+          "Basic knowledge of java is prerequisite and Special discount for needy students",
           "New course batch starts monthly"
         ]
       },
