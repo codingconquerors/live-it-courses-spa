@@ -24,6 +24,23 @@ const Main = () => {
         <p className={`text-gray-600`} id="root">
           {main.description}
         </p>
+        <br></br>
+        <br></br>
+        <br></br>
+        <p className={`text-gray-600`}>
+          Please note that we also provide online training to Computer Science
+          and IT students through live classes and interactive sessions. We also
+          help IT students in creating projects. To know more about this please
+          click on the following link
+          <br></br>
+          <a
+            href="https://www.liveitcourses.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://www.liveitcourses.com
+          </a>
+        </p>
       </div>
     </section>
   );
