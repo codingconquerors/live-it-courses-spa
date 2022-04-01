@@ -9,7 +9,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Fragment>
       <Head>
         <title>We provide the end to end solution to all your IT needs</title>
-        <meta name="title" content="IT solution providers on reasonable rates" />
+        <meta
+          name="title"
+          content="IT solution providers on reasonable rates"
+        />
         <meta
           name="description"
           content="Coding conquerors is one stop for providing you all kind of IT solutions you need in your organization."
