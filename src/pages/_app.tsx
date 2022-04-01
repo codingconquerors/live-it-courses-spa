@@ -8,11 +8,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>Online IT courses with live classes | </title>
-        <meta name="title" content="Online IT courses with live classes" />
+        <title>We provide the end to end solution to all your IT needs</title>
+        <meta name="title" content="IT solution providers on reasonable rates" />
         <meta
           name="description"
-          content="Learn online IT courses in live classes. We teach online live courses based on java, spring boot, apache camel, kafka, microservices, docker, kubernetes and other open source technologies. Click contact us link to know more."
+          content="Coding conquerors is one stop for providing you all kind of IT solutions you need in your organization."
         />
         <meta name="url" content="https://www.codingconquerors.com/" />
         <meta name="type" content="website" />
